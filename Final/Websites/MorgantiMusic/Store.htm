@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>MusicWeb</title>
+  <link href="StyleStore.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+</head>
+<body>
+  <div id="Header">
+    <a href="Index.htm"><img src="./Images/BannerNew.png" alt="Queen Logo" style="color:white;"></a>
+  </div>
+  <div id="Navigation">
+    <table>
+      <tr>
+        <td>
+	  <a href="Index.htm">About Us</a>
+	</td>
+	<td>
+          <a href="Songs.htm">Songs</a>
+	</td>
+	<td>
+          <a href="Members.htm">Members</a>
+	</td>
+	<td>
+          <a href="Concerts.htm">Concerts</a>
+	</td>
+	<td>
+          <a href="Store.htm">Store</a>
+	</td>
+      </tr> 
+    </table>
+  </div>
+  <div id="main">
+    <div id="side">
+      <h1 id="bar1" onclick="change(1)">Shirts</h1>
+      <h1 id="bar2" onclick="change(2)">Hats</h1>
+      <h1 id="bar3" onclick="change(3)">Music</h1>
+      <h1 id="bar4" onclick="change(4)">Other</h1>
+    </div>
+    <div id="cont1">
+      <h1>Shirts</h1>
+      <table>
+	<tr>
+	  <td><img src="./Images/Shirt1.jpg" alt="Shirt1" onclick="function1(1)"</td>
+	  <td><img src="./Images/Shirt2.jpg" alt="Shirt2" onclick="function1(2)"</td>
+	  <td><img src="./Images/Shirt5.jpg" alt="Shirt3" onclick="function1(3)"</td>
+	</tr>
+	<tr>
+	  <td><img src="./Images/Shirt3.jpg" alt="Shirt4" onclick="function1(4)"</td>
+	  <td><img src="./Images/Shirt4.jpg" alt="Shirt5" onclick="function1(5)"</td>
+	  <td><img src="./Images/Shirt6.jpg" alt="Shirt6" onclick="function1(6)"</td>
+	</tr>
+      </table>
+      <p>
+        <strong>NOTE:</strong> Images found on Google Seach. Also, these items are not for sale from this website.
+        These are only pictures of objects that can be found somewhere on the web. If you are interested in real 
+        merchandise, then please go to <a href="http://www.queenonlinestore.com/" target="_blank">Queen Online Store</a>.  
+      </p>
+    </div>
+    <div id="cont2">
+      <h1>Hats</h1>
+      <table>
+	<tr>
+	  <td><img src="./Images/Hat1.jpg" alt="Hat1" onclick="function2(1)"</td>
+	  <td><img src="./Images/Hat2.jpg" alt="Hat2" onclick="function2(2)"</td>
+	  <td><img src="./Images/Hat6.jpg" alt="Hat3" onclick="function2(3)"</td>
+	</tr>
+	<tr>
+	  <td><img src="./Images/Hat3.jpg" alt="Hat4" onclick="function2(4)"</td>
+	  <td><img src="./Images/Hat4.jpg" alt="Hat5" onclick="function2(5)"</td>
+	  <td><img src="./Images/Hat5.jpg" alt="Hat6" onclick="function2(6)"</td>
+	</tr>
+      </table>
+      <p>
+        <strong>NOTE:</strong> Images found on Google Seach. Also, these items are not for sale from this website.
+        These are only pictures of objects that can be found somewhere on the web. If you are interested in real 
+        merchandise, then please go to <a href="http://www.queenonlinestore.com/" target="_blank">Queen Online Store</a>.  
+      </p>
+    </div>
+    <div id="cont3">
+      <h1>Music</h1>
+      <table>
+	<tr>
+	  <td><img src="./Images/Album1.jpg" alt="Album1" onclick="function3(1)"</td>
+	  <td><img src="./Images/Album2.jpg" alt="Album2" onclick="function3(2)"</td>
+	  <td><img src="./Images/Album3.jpg" alt="Album3" onclick="function3(3)"</td>
+	</tr>
+	<tr>
+	  <td><img src="./Images/Album4.jpg" alt="Album4" onclick="function3(4)"</td>
+	  <td><img src="./Images/Album5.jpg" alt="Album5" onclick="function3(5)"</td>
+	</tr>
+      </table>
+      <p>
+        <strong>NOTE:</strong> Images found on Google Seach. Also, these items are not for sale from this website.
+        These are only pictures of objects that can be found somewhere on the web. If you are interested in real 
+        merchandise, then please go to <a href="http://www.queenonlinestore.com/" target="_blank">Queen Online Store</a>.  
+      </p>
+    </div>
+    <div id="cont4">
+      <h1>Other</h1>
+      <table> 
+	<tr>
+	  <td><img src="./Images/Other1.jpg" alt="Other1" onclick="function4(1)"</td>
+	  <td><img src="./Images/Other2.jpg" alt="Other2" onclick="function4(2)"</td>
+	  <td><img src="./Images/Other3.jpg" alt="Other3" onclick="function4(3)"</td>
+	</tr>
+	<tr>
+	  <td><img src="./Images/Other4.jpg" alt="Other4" onclick="function4(4)"</td>
+	  <td><img src="./Images/Other5.jpg" alt="Other5" onclick="function4(5)"</td>
+	  <td><img src="./Images/Other6.jpg" alt="Other6" onclick="function4(6)"</td>
+	</tr>
+      </table>
+      <p>
+        <strong>NOTE:</strong> Images found on Google Seach. Also, these items are not for sale from this website.
+        These are only pictures of objects that can be found somewhere on the web. If you are interested in real 
+        merchandise, then please go to <a href="http://www.queenonlinestore.com/" target="_blank">Queen Online Store</a>.  
+      </p>
+    </div>
+  </div>
+  <div id="forms" onsubmit="submits()">
+    <h1>SHOP BUYING</h1>
+      <table>
+      <form method="post">
+	<tr>  
+	<td>First Name:*<br><input id="first" type="text" placeholder="First Name"></td>
+	<td>Last Name:*<br><input id="last" type="text" placeholder="Last Name"></td>
+        <td>Address:*<br><input id="address" type="text" placeholder="Address"></td>
+        <td>E-mail:*<br><input id="mail" type="email" placeholder="email@example.com"></td>
+        <td>Express Shipping<br><input type="radio" name="ship" value="Express"></td>
+        <td>Normal<br><input type="radio" name="ship" value="Normal" checked></td>
+	</tr>
+	<tr> 
+	<td><input type="checkbox" onclick="costs(this,1)" name="15" value="Shirt1" id="c1"> Shirt1-Quantity <input id="i1" onchange="costChange(1)" type="number" value="0" min="0"></td>
+	<td><input type="checkbox" onclick="costs(this,2)" name="20" value="Shirt2" id="c2"> Shirt2-Quantity <input id="i2" onchange="costChange(2)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,3)" name="20" value="Shirt3" id="c3"> Shirt3-Quantity <input id="i3" onchange="costChange(3)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,4)" name="30" value="Shirt4" id="c4"> Shirt4-Quantity <input id="i4" onchange="costChange(4)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,5)" name="35" value="Shirt5" id="c5"> Shirt5-Quantity <input id="i5" onchange="costChange(5)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,6)" name="30" value="Shirt6" id="c6"> Shirt6-Quantity <input id="i6" onchange="costChange(6)" type="number" value="0" min="0"></td>
+	</tr>
+	<tr> 
+	<td><input type="checkbox" onclick="costs(this,7)" name="15" value="Hat1" id="c7"> Hat1-Quantity <input id="i7" onchange="costChange(7)" type="number" value="0" min="0"></td>
+	<td><input type="checkbox" onclick="costs(this,8)" name="15" value="Hat2" id="c8"> Hat2-Quantity <input id="i8" onchange="costChange(8)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,9)" name="15" value="Hat3" id="c9"> Hat3-Quantity <input id="i9" onchange="costChange(9)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,10)" name="15" value="Hat4" id="c10"> Hat4-Quantity <input id="i10" onchange="costChange(10)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,11)" name="20" value="Hat5" id="c11"> Hat5-Quantity <input id="i11" onchange="costChange(11)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,12)" name="15" value="Hat6" id="c12"> Hat6-Quantity <input id="i12" onchange="costChange(12)" type="number" value="0" min="0"></td>
+	</tr>
+	<tr> 
+	<td><input type="checkbox" onclick="costs(this,13)" name="5" value="Music1" id="c13"> Music1-Quantity <input id="i13" onchange="costChange(13)" type="number" value="0" min="0"></td>
+	<td><input type="checkbox" onclick="costs(this,14)" name="5" value="Music2" id="c14"> Music2-Quantity <input id="i14" onchange="costChange(14)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,15)" name="5" value="Music3" id="c15"> Music3-Quantity <input id="i15" onchange="costChange(15)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,16)" name="5" value="Music4" id="c16"> Music4-Quantity <input id="i16" onchange="costChange(16)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,17)" name="5" value="Music5" id="c17"> Music5-Quantity <input id="i17" onchange="costChange(17)" type="number" value="0" min="0"></td>
+	<td><input type="checkbox" onclick="costs(this,18)" name="15" value="Other1" id="c18"> Other1-Quantity <input id="i18" onchange="costChange(18)" type="number" value="0" min="0"></td>
+	</tr>
+	<tr> 
+	<td><input type="checkbox" onclick="costs(this,19)" name="10" value="Other2" id="c19"> Other2-Quantity <input id="i19" onchange="costChange(19)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,20)" name="50" value="Other3" id="c20"> Other3-Quantity <input id="i20" onchange="costChange(20)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,21)" name="80" value="Other4" id="c21"> Other4-Quantity <input id="i21" onchange="costChange(21)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,22)" name="60" value="Other5" id="c22"> Other5-Quantity <input id="i22" onchange="costChange(22)" type="number" value="0" min="0"></td>
+        <td><input type="checkbox" onclick="costs(this,23)" name="30" value="Other6" id="c23"> Other6-Quantity <input id="i23" onchange="costChange(23)" type="number" value="0" min="0"></td>
+	<td><input type="submit"></td>
+	</tr>
+      </form>
+      </table>
+      <br>
+      <h2>Total Price</h2>
+      <p id="cost">$0</p>
+      <!--<input type="button" onclick="tests()">-->
+  </div>
+  <script src="StoreCode.js"></script>
+  <script src="Price.js"></script>
+  <script>
+  var pricetot = 0;
+  function costChange(numb)  
+  {
+    var costchange=document.getElementById("i"+numb);
+    var costChange1=costchange.value;
+    var change1= costchange.id; 
+    change1 = change1.replace('i','c');
+    var checktest = document.getElementById(change1);
+    var checkname = checktest.name;
+    var priceAr = document.getElementById("cost");
+    if(checktest.checked)
+    {
+	if((costChange1*checkname)>localStorage.getItem("yo"+numb))
+        {
+	  var reset = localStorage.getItem("reset"+numb);
+	  var whatChange = costChange1-reset; 
+	  pricetot+=(whatChange*checkname);
+	  priceAr.innerHTML="$"+pricetot;
+	  localStorage.setItem("yo"+numb,(checkname*costChange1));
+	  localStorage.setItem("reset"+numb,costChange1);
+	}
+	if((costChange1*checkname)<localStorage.getItem("yo"+numb))
+        {
+	  var reset2 = localStorage.getItem("reset"+numb);
+	  var whatChange2 = costChange1-reset2; 
+	  pricetot+=(whatChange2*checkname);
+	  priceAr.innerHTML="$"+pricetot;
+	  localStorage.setItem("yo"+numb,(checkname*costChange1));
+	  localStorage.setItem("reset"+numb,costChange1);
+	}
+    }
+  }
+  function costs(x,id)
+  {
+    var checkbox = x;
+    var quan = document.getElementById("i"+id).value;
+    var cost = document.getElementById("cost");
+    checkbox.onchange = function() 
+    {
+      if(this.checked) 
+      {
+        localStorage.setItem("yo"+id,(checkbox.name*quan));
+	localStorage.setItem("reset"+id,quan); 
+        pricetot+=(checkbox.name*quan); 
+        cost.innerHTML="$"+pricetot;
+      }  
+      if(!this.checked) 
+      {
+        pricetot-=(localStorage.getItem("yo"+id)); 
+	localStorage.removeItem("yo"+id);
+        cost.innerHTML="$"+pricetot;
+      }  
+    };
+  }
+  function submits()
+  {
+    var first = document.getElementById("first").value;
+    var last = document.getElementById("last").value;
+    var address = document.getElementById("address").value;
+    var mail = document.getElementById("mail").value;
+    var shipping = document.querySelector('input[name = "ship"]:checked').value;
+    var x = document.querySelectorAll('input[type="checkbox"]:checked'); 
+    var itms="Items: "
+    var i=0;
+    for(i=0; i<x.length; i++)
+    {
+	var quantity = x[i].id
+	quantity = quantity.replace('c','i'); 
+	var quanConv = document.getElementById(quantity).value;
+	itms += "\n" + (i+1) + ": " + x[i].value + "- Quantity:" + quanConv;	
+    }
+
+    if(first=="" || last=="" || address=="" || mail=="")
+    {
+	alert("Please Fill Out Required Fields"); 
+    }
+    else
+    {
+      alert("First Name: " + first + "\n" + "Last Name: " + last + "\n" + "Address: " + address + 
+      "\n" + "Mail: " + mail +  "\n" + "Shipping: " + shipping + "\n" + itms + "\n" + "$" + pricetot);
+    }
+  }
+  function tests()
+  {
+    var x = document.querySelectorAll('input[type="checkbox"]:checked'); 
+    var itms="Items: "
+    var i=0;
+    for(i=0; i<x.length; i++)
+    {
+	var quantity = x[i].id;
+	quantity = quantity.replace('c','i'); 
+	//console.log(quantity);
+	var quanConv = document.getElementById(quantity).value;
+	//console.log(quanConv); 
+	itms += "\n" + (i+1) + ": " + x[i].value + "- Quantity:" + quanConv;	
+    }
+	alert(itms);
+
+  }
+  </script>
+</body>
+</html>

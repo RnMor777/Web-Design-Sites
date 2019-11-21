@@ -1,0 +1,56 @@
+﻿$(document).ready(function()
+{
+	var count=0; 	
+	var arr=[
+	"Images/FinalNoFibers.jpg",
+	"Images/MorgantiOrange.jpg",
+	"Images/PepperMorganti.png",
+	"Images/MorgantiColors.png",
+	"Images/MorgantiPoster.png",
+	"Images/MorgantiTutorial2.jpg",
+	"Images/MorgantiTutorial.jpg",
+	"Images/Pumpkin.jpg",
+	"Images/Watermelon.jpg",
+	"Images/MorgantiLogo(OLD).jpg",
+	"Images/MorgantiLogoNew.jpg",
+	"Images/MorgantiLogoText.jpg",
+	"Images/MorgantiLogoBlackAndWhite.jpg",
+	"Images/LogoNew.png",
+	"Images/LogoNewest.png",
+	];
+	var arr2=$(".needName"); 
+	$(arr2[0]).css({'background-color':'black'});
+	$("#next").click(function()
+	{
+		count++;
+		if(count>=arr.length)
+		{
+			count=0;
+		}
+		console.log(count);
+		$("#fullimg").attr("src",arr[count]); 
+		$(arr2[count]).css({'background-color':'black'}); 
+		$(arr2).not(arr2[count]).css({'background-color':'transparent'}); 
+		return;
+	});
+	$("#prev").click(function()
+	{
+		count--;
+		if(count<0)
+		{
+			count=arr.length-1;
+		}
+		console.log(count);
+		$("#fullimg").attr("src",arr[count]); 
+		$(arr2[count]).css({'background-color':'black'}); 
+		$(arr2).not(arr2[count]).css({'background-color':'transparent'}); 
+		return;
+	});
+	$(arr2).click(function()
+	{
+		count = arr2.index($(this)); 
+		$("#fullimg").attr("src",arr[count]); 
+		$(arr2[count]).css({'background-color':'black'}); 
+		$(arr2).not(arr2[count]).css({'background-color':'transparent'}); 
+	}); 
+});

@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>
+	Portfolio
+  </title>
+  <base target="_blank">
+  <style>
+    .button
+    {
+      margin-right:20px;
+      font-size:22px;
+      background-color:rgba(115,193,214,0.8);
+      border:2px solid #001FFF;
+      color:black;      
+    }
+    .links
+    {
+      color:black;
+      line-height: 150%;
+    }
+    .heads
+    {
+      font-family:courier;
+      font-size:400%;
+      text-align:center;
+      color:white;
+    }
+    .backgrounds
+    {
+      background-color:rgba(115,193,214,0.8);
+      border:2px solid #001FFF;
+      border-radius:25px; 
+    }
+  </style>
+</head>
+
+<body background="./Images/Header.jpg">
+
+  <script>
+    function home()
+    {
+      document.getElementById("home").style.display="block";
+      document.getElementById("exLinks").style.display="none";
+      document.getElementById("graphDesi").style.display="none"; 
+      document.getElementById("homeHead").style.display="block";
+      document.getElementById("exLinksH").style.display="none";
+      document.getElementById("graphDesiH").style.display="none";
+      document.getElementById("advisoryH").style.display="none";
+      document.getElementById("advisory").style.display="none";
+    }
+    function exLinks()
+    {
+      document.getElementById("exLinks").style.display="block";
+      document.getElementById("home").style.display="none";
+      document.getElementById("graphDesi").style.display="none";
+      document.getElementById("exLinksH").style.display="block";
+      document.getElementById("graphDesiH").style.display="none";
+      document.getElementById("homeHead").style.display="none";
+      document.getElementById("advisoryH").style.display="none";
+      document.getElementById("advisory").style.display="none";
+    }
+    function graphDes()
+    {
+      document.getElementById("home").style.display="none";
+      document.getElementById("exLinks").style.display="none";
+      document.getElementById("graphDesi").style.display="block";
+      document.getElementById("homeHead").style.display="none";
+      document.getElementById("exLinksH").style.display="none";
+      document.getElementById("graphDesiH").style.display="block";
+      document.getElementById("advisoryH").style.display="none";
+      document.getElementById("advisory").style.display="none";
+    }
+    function advisory()
+    {
+      document.getElementById("home").style.display="none";
+      document.getElementById("exLinks").style.display="none";
+      document.getElementById("graphDesi").style.display="none";
+      document.getElementById("homeHead").style.display="none";
+      document.getElementById("exLinksH").style.display="none";
+      document.getElementById("graphDesiH").style.display="none";
+      document.getElementById("advisoryH").style.display="block";
+      document.getElementById("advisory").style.display="block";
+    }
+  </script>
+
+<!-- Below is the Header section -->
+
+<div id="homeHead">
+  <h1 class="heads">
+    Web Design Portfolio
+  </h1>
+</div>
+
+<div id="exLinksH" style="display:none">
+  <h1 class="heads">
+    External Links
+  </h1>
+</div>
+
+<div id="graphDesiH" style="display:none">
+  <h1 class="heads">
+    Graphic Design
+  </h1>
+</div>
+
+<div id="advisoryH" style="display:none">
+  <h1 class="heads">
+    Advisory
+  </h1>
+</div>
+
+<div class="backgrounds">
+  <br>
+  <nav style="margin-left:25px">
+    <button type="button" class="button" onclick="home()">Home</button>
+    <button type="button" class="button" onclick="exLinks()">External Links</button>
+    <button type="button" class="button" onclick="graphDes()">Graphic Design</button>
+    <button type="button" class="button" onclick="advisory()">Advisory</button>
+  </nav>
+  <br>
+</div>
+<br>
+
+<!-- Below is the Home page -->
+
+<div id="home">
+  <div class="backgrounds">
+  <h2 style = "font-size:200%; margin-left:10px">
+	About Me:
+  </h2>
+  <table>
+    <tr>
+      <td>
+	<img src = "./Images/WebDesignCollage.jpg" class="backgrounds" style = "width:500px; height:350px; margin-left:10px; margin-right:10px">
+      </td>
+
+      <td valign="top" style="font-size:130%">
+	My name is Ryan Morganti and this is a portfolio for my work at Fossil Ridge. I am 15 years old and live in Fort Collins Colorado. My favorite sport I play is tennis, and I play tennis for Fossil Ridge High School. I am decent at programming in C and using the game engine Unity. I love to read and play cards games with my friends.
+      </td>
+    </tr>
+  </table>
+</div>
+<br>
+<div class="backgrounds" style="text-align:center">
+  <h2 style="font-size:200%">
+    Daily Schedule 
+  </h2>
+  <img src = "./Images/Schedule.jpg" class="backgrounds" style="width:600px; height:400px; margin:10px">
+</div>
+<br>
+<div class="backgrounds">
+  <h2 style="font-size:200%; text-align:center">
+    Classes
+  </h2>
+  <table align="center">
+    <tr>
+      <th style="font-size:150%">
+        9th Grade:
+      </th>
+      <th style="font-size:150%">
+        10th Grade:
+      </th>
+      <th style="font-size:150%">
+        11th Grade:
+      </th>
+    </tr>
+    <tr>
+     <td>
+       <object data="./Tables/Table9th.htm" height="200px" width="425px"></object>
+     </td>
+     <td>
+       <object style="height:200px; width:425px" data="./Tables/Table10th.htm"></object>
+     </td>
+     <td>
+       <object style="height:200px; width:425px" data="./Tables/Table11th.htm"></object>
+     </td>
+    </tr>
+  </table>
+  <table align="center">
+    <tr>
+      <th style="font-size:150%">
+        12th Grade:
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <object style="height:200px; width:425px" data="./Tables/Table12th.htm"></object>
+      </td>
+     </tr>
+  </table>
+</div>
+<br>
+<div class="backgrounds">
+  <table align="center">
+    <tr>
+      <td>
+        <iframe style="padding:20px; float:middle" frameBorder="0px" src="https://svue.psdschools.org/" width="900px" height="500px"></iframe>
+      </td>
+    </tr>   
+  </table>
+</div>
+<br>
+</div>
+
+<!-- Below is the External Links pages -->
+
+<div id="exLinks" class="backgrounds" style="display:none">
+  <h2 style = "font-size:200%; margin-left:10px">
+    Links:
+  </h2>
+  <p style="font-size:150%; margin-left:50px; color:black">
+    <a class="links" href="https://quizlet.com">Quizlet</a>
+      <br>
+    <a class="links" href="https://www.codecademy.com">Code Academy</a>
+      <br>
+    <a class="links" href="https://www.khanacademy.org">Khan Academy</a>
+      <br>
+    <a class="links" href="https://svue.psdschools.org/Login_Student_PXP.aspx?regenerateSessionId=True">Student Vue</a>
+      <br>
+    <a class="links" href="https://vhs.psdschools.org/webapps/login/?action=relogin">Blackboard</a>
+      <br>
+    <a class="links" href="https://www.aleks.com/">ALEKS</a>
+      <br>
+    <a class="links" href="http://artipandeyco.wixsite.com/math">Mu Alpha Theta</a>
+      <br>
+    <a class="links" href="http://calcchat.com/book/Calculus-10e/1/2/69/">Calc Chat</a>
+      <br>
+    <a class="links" href="https://sites.google.com/a/psdschools.org/frhsscioly/">Science Olympiad</a>
+      <br>
+    <a class="links" href="http://www.gcflearnfree.org/">GCF Learn Free</a>
+      <br>
+    <a class="links" href="http://htmlcolorcodes.com/">HTML Colors</a>
+      <br>
+    <a class="links" href="http://www.w3schools.com/">w3schools</a>
+      <br>
+    <a class="links" href="https://sites.google.com/psdschools.org/rmorganti">Google Portfolio</a>
+  </p>
+</div>
+
+<div id="graphDesi" class="backgrounds" style="display:none">
+  <h2 style = "font-size:200%; margin-left:10px">
+    Made with PowerPoint:
+  </h2>
+  <img src="./Images/Banner.png" class="backgrounds" style="width:1000px; height:400px; margin:10px">
+</div>
+
+<div id="advisory" class="backgrounds" style="display:none">
+  <h2 style = "font-size:200%; margin-left:10px">
+    Advisory:
+  </h2>
+  <h3 style="font-size:150%; margin-left:10px">
+    9th Grade:
+  </h3>
+  <br>
+  <h3 style="font-size:150%; margin-left:10px">
+    10th Grade:
+  </h3>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,297 @@
+﻿*
+{
+	font-family: 'Eagle Lake', cursive;
+}
+#container
+{
+	position:absolute;
+	top:0px;
+	left:0px; 
+	width:100%;
+	height:900px; 
+	min-width:1115px; 
+}
+#header
+{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:200px;
+	background-image:url(Images/Header.jpeg); 
+	background-size:cover;
+	color:white;
+}
+#countdowndiv
+{
+	position:absolute;
+	top:1100px; 
+	left:0px;
+	width:100%;
+	height:50px; 
+	background-color:black;
+}
+#countdown
+{
+	margin-top:0px;
+	margin-bottom:0px; 
+	font-size:30px;
+	text-align:center;
+	color:white;  
+}
+#nav
+{
+	position:absolute;
+	top:200px;
+	left:0px;
+	height:100px;
+	width:100%;
+	background-color:black;
+}
+#tri
+{
+	display:block;
+	margin:0px auto;
+	width:50%;
+	height:300px;
+}
+#fix
+{
+	position:absolute;
+	top:200px; 
+	z-index:100;
+	width:7.6%; 
+	height:100px; 
+	left:46.2%;
+	min-width:84.73px;
+}
+#divleft
+{
+	position:absolute;
+	left:0px;
+	top:0px; 
+	width:30%; 
+	height:200px;
+	/*outline:2px solid blue;*/
+}
+#topleft
+{
+	position:relative; 
+	/*outline:2px solid white;*/ 
+	text-align:center;
+	font-size:300%;
+	margin:30px auto;
+}
+#divright
+{
+	position:absolute;
+	left:70%;
+	top:0px; 
+	width:30%; 
+	height:200px;
+	/*outline:2px solid blue;*/
+}
+#topright
+{
+	position:relative; 
+	/*outline:2px solid white;*/ 
+	text-align:center;
+	font-size:300%;
+	margin:30px auto;
+	max-width:300%;
+}
+#first
+{
+	position:relative;
+	top:0px; 
+	left:4%; 
+	width:40%;
+	height:100%; 
+}
+#second
+{
+	position:relative;
+	top:-100px; 
+	left:55%;
+	width:44%;
+	height:100%;
+}
+#nav table td
+{
+	width:25%;
+	text-align:center;	
+}
+#nav a
+{
+	color:white;
+	text-decoration:none;
+	font-size:20px; 
+}
+#nav a:hover
+{
+	color:black;
+	background-color:white;
+}
+#sideleft
+{
+	position:absolute;
+	width:10%; 
+	height:850px; 
+	top:300px; 
+	left:0px; 
+	background-color:#bc001f;
+	border-right:2px solid black; 
+}
+#sideright
+{
+	position:absolute;
+	width:10%; 
+	height:850px; 
+	top:300px; 
+	right:0px; 
+	background-color:#bc001f;
+	border-left:2px solid black; 
+}
+#main
+{
+	position:absolute;
+	width:80%;
+	top:300px;
+	left:10%;
+	background-color:grey;
+	height:850px;
+	text-align:center; 
+}
+#main h1
+{
+	text-align:center;
+	font-size:300%;
+}
+.links
+{
+	color:black;
+	text-decoration:none;
+	text-align:center;
+	font-size:20px;
+}
+#main a:hover
+{
+	background-color:black;
+	color:white; 
+}
+#nav2
+{
+	position:fixed;
+	opacity:0;  
+	z-index:1000; 
+	top:0px;  
+	height:100px;
+	width:90%;
+	left:-90%; 
+	background-color:black;
+	min-width:1007px; 
+}
+#first2
+{
+	position:relative;
+	top:0px; 
+	left:4%; 
+	width:40%;
+	height:100%; 
+}
+#second2
+{
+	position:relative;
+	top:-100px; 
+	left:55%;
+	width:44%;
+	height:100%;
+}
+#nav2 table td
+{
+	width:25%;
+	text-align:center;	
+}
+#nav2 a
+{
+	color:white;
+	text-decoration:none;
+	font-size:20px; 
+}
+#nav2 a:hover
+{
+	color:black;
+	background-color:white;
+}
+.moving
+{
+	animation: moving 1.2s; 
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}	
+.antiMove
+{
+	animation:movingNo 1.2s;
+	animation-timing-function:ease;
+}
+.triMoves
+{
+	animation:triMoves 1.2s;
+	animation-fill-mode:forwards;
+	border-top:3px solid black;
+}
+.triMovesNo
+{
+	animation:triMovesNo 1.2s;
+	animation-fill-mode:forwards; 
+}
+.triMovesBan
+{
+	animation:triMovesBan 1.2s;
+	animation-fill-mode:forwards;
+}
+.triMovesBanUpR
+{
+	animation:triMovesBanUpR 1.2s;
+	animation-fill-mode:forwards; 
+}
+.triMovesBanUpL
+{
+	animation:triMovesBanUpL 1.2s;
+	animation-fill-mode:forwards; 
+}
+@keyframes moving
+{
+	from {left: -90%; opacity:0;}
+        to {left: 0%; opacity:1;}
+}
+@keyframes movingNo
+{
+	from {left: 0%; opacity:1;}
+	top {left: -90%; opacity:0;}
+}
+@keyframes triMoves
+{
+    from{-webkit-transform: rotate(0deg); transform: rotate(0deg);}
+	to{-webkit-transform: rotate(90deg); transform: rotate(90deg);}
+}
+@keyframes triMovesNo
+{
+    from{-webkit-transform: rotate(90deg); transform: rotate(90deg);}
+	to{-webkit-transform: rotate(270deg); transform: rotate(270deg);}
+}
+@keyframes triMovesBan
+{
+    from{-webkit-transform: rotate(0deg); transform: rotate(0deg);}
+	to{-webkit-transform: rotate(-90deg); transform: rotate(-90deg);}
+}
+@keyframes triMovesBanUpR
+{
+    from{-webkit-transform: rotate(270deg); transform: rotate(270deg);}
+	to{-webkit-transform: rotate(360deg); transform: rotate(360deg);}
+}
+@keyframes triMovesBanUpL
+{
+    from{-webkit-transform: rotate(90deg); transform: rotate(90deg);}
+	to{-webkit-transform: rotate(0deg); transform: rotate(0deg);}
+}

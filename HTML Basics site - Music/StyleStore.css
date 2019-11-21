@@ -1,0 +1,244 @@
+﻿body
+{
+  background-color:#f2d179;
+  background-image:url("./Images/Back.png");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size:70%;
+}
+#Header
+{
+  position:absolute;
+  left:1%;
+  top:15px; 
+  background-color:#01184a; 
+  opacity:1; 
+  width:98%; 
+  height:270px; 
+  text-align:center;
+  outline: 1px solid white; 
+  outline-offset:-4px; 
+}
+#Header img
+{
+  width:50%; 
+  height:250px; 
+  margin-top:10px;
+}
+#Navigation
+{
+  position:absolute;
+  top:285px;
+  left:1%; 
+  width:98%; 
+  height:100px;
+  background-color:black;
+}
+#Navigation table
+{
+  width:100%; 
+  height:100%; 
+  position:absolute;
+  margin:auto
+  text-align:center;
+}
+#Navigation td
+{
+  background-color:#f2b963;
+  width:19%;
+  text-align:center;
+  border:1px solid white; 
+  font-style:italic;
+  font-family: 'Titillium Web', sans-serif;
+  font-size:140%;
+}
+#Navigation td:hover
+{
+  background-color:grey; 
+}
+#Navigation a
+{
+  font-size:200%; 
+  text-decoration:none;
+  color:#01184a;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top:15px;
+}
+#side
+{
+  margin-top:-20px;
+  margin-left:7px;
+  width:20%;
+  background-color:black;
+  height:785px;
+}
+#side h1
+{
+  cursor:pointer;
+  font-family: serif;
+  font-size:250%;
+  margin-left:20px;
+  padding-top:10px;
+}
+#main
+{
+  opacity:0.9;
+  position:absolute;
+  top:400px;
+  background-color:#01184a;
+  left:1%;
+  width:98%; 
+  height:800px;
+  outline: 1px solid white;
+  outline-offset:-4px; 
+  color:white;  
+  margin-bottom:20px;
+}
+#cont1
+{
+  position:absolute;
+  display:none; 
+  left:22%;
+  top:0px;
+  width:78%;
+  height:100%;
+}
+#cont1 h1
+{
+  font-family: serif;
+  font-size:250%;
+  margin-left:20px;
+}
+#cont2
+{
+  position:absolute;
+  display:none; 
+  left:22%;
+  top:0px;
+  width:78%;
+  height:100%;
+}
+#cont2 h1
+{
+  font-family: serif;
+  font-size:250%;
+  margin-left:20px;
+}
+#cont3
+{
+  position:absolute;
+  display:none; 
+  left:22%;
+  top:0px;
+  width:78%;
+  height:100%;
+}
+#cont3 h1
+{
+  font-family: serif;
+  font-size:250%;
+  margin-left:20px;
+}
+#cont4
+{
+  position:absolute;
+  display:none; 
+  left:22%;
+  top:0px;
+  width:78%;
+  height:100%;
+}
+#cont4 h1
+{
+  font-family: serif;
+  font-size:250%;
+  margin-left:20px;
+}
+#main img
+{
+  width:100%;
+  height:100%;
+}
+#main table
+{
+  width:95%;
+  margin-left:10px;
+}
+#main td
+{
+  width:300px;
+  height:300px;
+  pading:10px;
+}
+#side img
+{
+  width:15%;
+  height:200px;
+  position:absolute;
+  bottom:250px;
+  left:20px;
+}
+p a 
+{
+  color:white;
+}
+#forms
+{
+  opacity:0.9;
+  position:absolute;
+  top:1215px;
+  background-color:#01184a;
+  left:1%;
+  width:98%; 
+  height:500px;
+  outline: 1px solid white;
+  outline-offset:-4px; 
+  color:white;  
+  margin-bottom:20px;
+}
+#forms h1
+{
+  text-align:center;
+}
+#forms h2
+{
+  left:46%;
+  position:absolute;
+  bottom:40px;
+}
+#forms form
+{
+  font-size:120%;
+}
+#forms td
+{
+  border: 1px solid white;
+}
+#forms table
+{
+  width:98.5%;
+  Height:300px;
+  position:absolute;
+  left:10px;
+}
+#cost
+{
+  left:49%;
+  position:absolute;
+  bottom:20px;
+}
+#forms input[type="number"]
+{
+  width:50px;
+}
+#forms input[type="text"]
+{
+  width:90%;
+}
+#forms input[type="email"]
+{
+  width:90%;
+}

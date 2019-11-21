@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Meddon" rel="stylesheet">
+    <title>
+      Portfolio V2
+    </title>
+    <meta>
+      <base target="_blank">
+    </meta>
+  </head>
+<script src="Code.js"></script>
+
+<body onload="load()">  
+<div class="mainhead" id="main">
+  <img class="imghead" src="./Images/Header.jpg">
+  <h1>
+    Portfolio V2
+  </h1>
+</div>
+
+<div class="side">
+  <h2 class="sidehead">Links:</h2>
+    <p style="text-align:center">
+      <a class="sidelink" href="#main" target="_self">Home</a>
+	<br>
+      <a class="sidelink" href="#aboutme" target="_self">About Me</a>
+	<br>
+      <a class="sidelink" href="#schedule" target="_self">Daily Schedule</a>
+        <br>
+      <a class="sidelink" href="#exlinks" target="_self">External Links</a>
+	<br>
+      <a class="sidelink" href="#grades" target="_self">Grades</a>
+	<br>
+      <a class="sidelink" href="#graphdes" target="_self">Graphic Design</a>
+        <br>
+      <a class="sidelink" href="#homework" target="_self">Homework</a>
+	<br><br><br>
+      <img src="./Images/LogoNew.png">
+    </p>
+
+</div>
+
+<div id="aboutme" class="aboutme">
+  <h3>
+    About Me:
+  </h3>
+  <img src="./Images/WebDesignCollage.jpg">
+  <p>
+    My name is Ryan Morganti and this is a website that I made using html.
+    I attend Fossil Ridge High School and this holds some of my work. 
+    I am 15 years old and live in Fort Collins Colorado. 
+    My favorite sport I play is tennis, and I play tennis for Fossil Ridge High School.
+    I am decent at programming in C, html, and using the game engine Unity. 
+    I love to read and play cards games with my friends.
+  </p>
+</div>
+<div id="schedule" class="schedule">
+  <h3>
+    Daily Schedule:
+  </h3>
+  <img src="./Images/Schedule.jpg">
+</div>
+<div id="exlinks" class="exlinks">
+  <h3>
+    External Links:
+  </h3>
+  <p>
+    <a class="links" href="https://quizlet.com">Quizlet</a>
+      <br>
+    <a class="links" href="https://www.codecademy.com">Code Academy</a>
+      <br>
+    <a class="links" href="https://www.khanacademy.org">Khan Academy</a>
+      <br>
+    <a class="links" href="https://svue.psdschools.org/Login_Student_PXP.aspx?regenerateSessionId=True">Student Vue</a>
+      <br>
+    <a class="links" href="https://vhs.psdschools.org/webapps/login/?action=relogin">Blackboard</a>
+      <br>
+    <a class="links" href="https://www.aleks.com/">ALEKS</a>
+      <br>
+    <a class="links" href="http://artipandeyco.wixsite.com/math">Mu Alpha Theta</a>
+      <br>
+    <a class="links" href="http://calcchat.com/book/Calculus-10e/1/2/69/">Calc Chat</a>
+      <br>
+    <a class="links" href="https://sites.google.com/a/psdschools.org/frhsscioly/">Science Olympiad</a>
+      <br>
+    <a class="links" href="http://www.gcflearnfree.org/">GCF Learn Free</a>
+      <br>
+    <a class="links" href="http://htmlcolorcodes.com/">HTML Colors</a>
+      <br>
+    <a class="links" href="http://www.w3schools.com/">w3schools</a>
+      <br>
+    <a class="links" href="https://sites.google.com/psdschools.org/rmorganti">Google Portfolio</a>
+      <br>
+    <a class="links" href="https://classroom.google.com/h">Google Classroom</a>
+  </p>
+</div>
+<div class="grades" id="grades">
+  <h3>
+    Grade Book:
+  </h3>
+  <p>
+    <iframe src="https://svue.psdschools.org/"></iframe>
+  </p>
+</div>
+<div class="graphdes" id="graphdes">
+  <h3>
+    Graphic Design:
+  </h3>
+      <img src="./Images/BannerFinal.png">
+    
+</div>
+<div class="homework" id="homework">
+  <h3>
+    Homework List:
+  </h3>
+  <br>
+  <table class="list">
+    <tr>
+      <th>Class:</th>
+      <th>Homework:</th>
+    </tr>
+    <tr>
+      <td>Advanced Chemistry</td>
+      <td>
+        <input type="text" value="h" id="input">
+      </td>
+    </tr>
+    <tr>
+      <td>Web Design</td>
+      <td>
+        <input type="text" value="h" id="input1">
+      </td>
+    </tr>
+    <tr>
+      <td>AP World History</td>
+      <td>
+        <input type="text" value="h" id="input2">
+      </td>
+    </tr>
+    <tr>
+      <td>English</td>
+      <td>
+        <input type="text" value="h" id="input3">
+      </td>
+    </tr>
+    <tr>
+      <td>Explorations in Tech</td>
+      <td>
+        <input type="text" value="h" id="input4">
+      </td>
+    </tr>
+    <tr>
+      <td>AP Calculus</td>
+      <td>
+        <input type="text" value="h" id="input5">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><button id="button" onclick="reset()">Save</button>
+    </tr>
+  </table>
+</div>
+<div id="footer">
+  <table>
+    <tr>
+      <td><p class="linksbot">Made By Ryan Morganti</p></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

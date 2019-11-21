@@ -1,0 +1,110 @@
+﻿body
+{
+  background-color:#f2d179;
+  background-image:url("./Images/Back.png");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size:70%;
+}
+#Header
+{
+  position:absolute;
+  left:1%;
+  top:15px; 
+  background-color:#01184a; 
+  opacity:1; 
+  width:98%; 
+  height:270px; 
+  text-align:center;
+  outline: 1px solid white; 
+  outline-offset:-4px; 
+}
+#Header img
+{
+  width:50%; 
+  height:250px; 
+  margin-top:10px;
+}
+#Navigation
+{
+  position:absolute;
+  top:285px;
+  left:1%; 
+  width:98%; 
+  height:100px;
+  background-color:black;
+}
+#Navigation table
+{
+  width:100%; 
+  height:100%; 
+  position:absolute;
+  margin:auto
+  text-align:center;
+}
+#Navigation td
+{
+  background-color:#f2b963;
+  width:19%;
+  text-align:center;
+  border:1px solid white; 
+  font-style:italic;
+  font-family: 'Titillium Web', sans-serif;
+  font-size:140%;
+}
+#Navigation td:hover
+{
+  background-color:grey; 
+}
+#Navigation a
+{
+  font-size:200%; 
+  text-decoration:none;
+  color:#01184a;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top:15px;
+}
+#main
+{
+  opacity:0.9;
+  position:absolute;
+  top:400px;
+  background-color:#01184a;
+  left:1%;
+  width:98%; 
+  height:910px;
+  outline: 1px solid white;
+  outline-offset:-4px; 
+  color:white;
+  margin-bottom:20px;
+}
+#main h1
+{
+  margin:10px 20px;
+  text-align:left;
+  font-family: serif;
+  font-size:250%;
+}
+#main table
+{
+  border-spacing:10px;
+  width:98%;
+  margin:15px 1%;
+  text-align:center;
+  color:black;
+}
+#main td
+{
+  background-color:#f2b963;
+  width:33%;
+  border:1px solid white;
+}
+#main td:hover
+{
+  background-color:grey;
+  width:33%;
+  border:1px solid white;
+}

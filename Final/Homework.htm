@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="Description" content="My Final Site">
+  <title>MorgantiFinal</title>
+  <link rel="icon" type="image/png" href="Images/icon.png"> 
+  <link href="Styles/StyleHome.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Eagle+Lake" rel="stylesheet"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="codeIndex.js"></script>
+  <script src="Code.js"></script>
+  <script src="HomeworkMove2.js"></script>
+</head>
+
+<body onload="load()">
+	<div id="container">
+	<div id="header">
+		<img id="tri" src="Images/Triangle.png">
+		<div id="divleft"><h1 id="topleft">Portfolio<br>Final</h1></div>
+		<div id="divright"><h1 id="topright">Web<br>1</h1></div>
+	</div>
+	<div id="nav">
+		<table id="first">
+			<tr>
+			<td><a href="Index.htm">HOME</a></td>
+			<td><a href="Photos.htm">PHOTOSHOP</a></td>
+			<td><a href="GameDes.htm">GAMES</a></td>
+			<td><a href="Animate.htm">ANIMATE</a></td>
+			</tr>
+		</table>
+		<table id="second">
+			<tr>
+			<td><a href="Homework.htm">HOMEWORK</a></td>
+			<td><a href="Fossil.htm">FOSSIL</a></td>
+			<td><a href="WebDes.htm">WEBSITES</a></td>
+			<td><a href="Ex.htm">EX LINKS</a></td>
+			</tr>
+		</table>
+		<img id="fix" src="Images/Fix.png">
+	</div>
+	<div id="main">
+		<h1>HOMEWORK LIST!</h1>
+<div class="homework" id="homework">
+<table class="list" id="hometable">
+    <tr>
+      <th>Class:</th>
+      <th>Homework:</th>
+    </tr>
+    <tr>
+      <td>Advanced Chemistry</td>
+      <td>
+        <textarea class="texts" rows="1" cols="21" id="input"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>Web Design</td>
+      <td>
+        <textarea class="texts" rows="1" cols="21" id="input1"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>AP World History</td>
+      <td>
+        <textarea class="texts" rows="1" cols="21" id="input2"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>English</td>
+      <td>
+        <textarea class="texts" rows="1" cols="21" id="input3"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>Explorations in Tech</td>
+      <td>
+        <textarea class="texts" rows="1" cols="21" id="input4"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>AP Calculus</td>
+      <td>
+        <textarea class="texts" rows="1" cols="21" id="input5"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>Other</td>
+      <td>
+        <textarea class="texts" rows="1" cols="21" id="input6"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><button id="button" onclick="reset()">Save</button><br>
+	<p>*Note* Input homework into the text field, then click save to save it. 
+	The website will remember the homework, if the website runs on the same
+	computer and browser.</p>
+    </tr>
+  </table>
+</div>
+	</div>
+	<div id="countdowndiv">
+		<p id="countdown"></p>
+	</div>
+	<div id="sideleft"></div>
+	<div id="sideright"></div>
+	</div>
+</body>
+  <!--<script src="homeworkMove.js"></script>-->
+</html>

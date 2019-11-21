@@ -1,0 +1,39 @@
+﻿$(document).ready(function()
+{
+	var count=0; 	
+	var arr=[
+	"https://scratch.mit.edu/projects/embed/145536489/?autostart=false",
+	"https://scratch.mit.edu/projects/embed/147847948/?autostart=false",
+	"https://scratch.mit.edu/projects/embed/146688087/?autostart=false",
+	"https://scratch.mit.edu/projects/embed/79824652/?autostart=false",
+	"https://scratch.mit.edu/projects/embed/143034465/?autostart=false",
+	"https://scratch.mit.edu/projects/embed/145555004/?autostart=false",
+	"https://scratch.mit.edu/projects/embed/144320492/?autostart=false",
+	"https://scratch.mit.edu/projects/embed/143461628/?autostart=false",
+	"https://scratch.mit.edu/projects/embed/139626268/?autostart=false",
+	"https://scratch.mit.edu/projects/embed/133634355/?autostart=false",
+	"https://scratch.mit.edu/projects/embed/131287959/?autostart=false",
+	];
+	$("#next").click(function()
+	{
+		count++;
+		if(count>=arr.length)
+		{
+			count=0;
+		}
+		console.log(count);
+		$("#games").attr("src",arr[count]); 
+		return;
+	});
+	$("#prev").click(function()
+	{
+		count--;
+		if(count<0)
+		{
+			count=arr.length-1;
+		}
+		console.log(count);
+		$("#games").attr("src",arr[count]); 
+		return;
+	});
+});

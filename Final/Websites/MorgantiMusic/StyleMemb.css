@@ -1,0 +1,214 @@
+﻿body
+{
+  background-color:#f2d179;
+  background-image:url("./Images/Back.png");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size:70%;
+}
+#Header
+{
+  position:absolute;
+  left:1%;
+  top:15px; 
+  background-color:#01184a; 
+  opacity:1; 
+  width:98%; 
+  height:270px; 
+  text-align:center;
+  outline: 1px solid white; 
+  outline-offset:-4px; 
+}
+#Header img
+{
+  width:50%; 
+  height:250px; 
+  margin-top:10px;
+}
+#Navigation
+{
+  position:absolute;
+  top:285px;
+  left:1%; 
+  width:98%; 
+  height:100px;
+  background-color:black;
+}
+#Navigation table
+{
+  width:100%; 
+  height:100%; 
+  position:absolute;
+  margin:auto
+  text-align:center;
+}
+#Navigation td
+{
+  background-color:#f2b963;
+  width:19%;
+  text-align:center;
+  border:1px solid white; 
+  font-style:italic;
+  font-family: 'Titillium Web', sans-serif;
+  font-size:140%;
+}
+#Navigation td:hover
+{
+  background-color:grey; 
+}
+#Navigation a
+{
+  font-size:200%; 
+  text-decoration:none;
+  color:#01184a;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top:15px;
+}
+#Memb1 
+{
+  position:absolute;
+  top:400px;
+  background-color:#01184a;
+  opacity:0.95;
+  left:1%;
+  width:98%; 
+  height:290px;
+  outline: 1px solid white;
+  outline-offset:-4px; 
+  color:white;
+}
+#Memb1 h1
+{
+  margin:10px 20px;
+  text-align:left;
+  font-family: serif;
+  font-size:250%;
+}
+#Memb1 img
+{
+  position:absolute;
+  top:20px;
+  right:20px; 
+  width:20%;
+  height:250px;
+}
+#Memb1 p
+{
+  max-width:70%;
+  font-size:120%;
+  margin:10px 20px;
+  text-indent:20px;
+  font-size:20px;
+}
+#Memb2 
+{
+  position:absolute;
+  top:705px;
+  opacity:0.95;
+  background-color:#01184a;
+  left:1%;
+  width:98%; 
+  height:290px;
+  outline: 1px solid white;
+  outline-offset:-4px; 
+  color:white;
+}
+#Memb2 h1
+{
+  margin:10px 20px;
+  text-align:left;
+  font-family: serif;
+  font-size:250%;
+}
+#Memb2 img
+{
+  position:absolute;
+  top:20px;
+  right:20px; 
+  width:20%;
+  height:250px;
+}
+#Memb2 p
+{
+  max-width:70%;
+  font-size:120%;
+  margin:10px 20px;
+  text-indent:20px;
+  font-size:20px;
+}
+#Memb3 
+{
+  position:absolute;
+  top:1010px;
+  opacity:0.95;
+  background-color:#01184a;
+  left:1%;
+  width:98%; 
+  height:290px;
+  outline:1px solid white;
+  outline-offset:-4px; 
+  color:white;
+}
+#Memb3 h1
+{
+  margin:10px 20px;
+  text-align:left;
+  font-family: serif;
+  font-size:250%;
+}
+#Memb3 img
+{
+  position:absolute;
+  top:20px;
+  right:20px; 
+  width:20%;
+  height:250px;
+}
+#Memb3 p
+{
+  max-width:70%;
+  font-size:120%;
+  margin:10px 20px;
+  text-indent:20px;
+  font-size:20px;
+}
+#Memb4 
+{
+  position:absolute;
+  top:1315px;
+  opacity:0.95;
+  background-color:#01184a;
+  left:1%;
+  width:98%; 
+  height:290px;
+  outline: 1px solid white;
+  outline-offset:-4px; 
+  color:white;
+  margin-bottom:20px;
+}
+#Memb4 h1
+{
+  margin:10px 20px;
+  text-align:left;
+  font-family: serif;
+  font-size:250%;
+}
+#Memb4 img
+{
+  position:absolute;
+  top:20px;
+  right:20px; 
+  width:20%;
+  height:250px;
+}
+#Memb4 p
+{
+  max-width:70%;
+  font-size:120%;
+  margin:10px 20px;
+  text-indent:20px;
+  font-size:20px;
+}
